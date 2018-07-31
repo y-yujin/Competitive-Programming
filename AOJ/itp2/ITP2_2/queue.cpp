@@ -20,7 +20,7 @@ int main(){
     }else if(command == 1){
       cin >> t;
       if(Q[t].size()) cout << Q[t].front() << endl;
-    }else if(command ==2){
+    }else if(command == 2){
       cin >> t;
       if(Q[t].size()) Q[t].pop();
     }
